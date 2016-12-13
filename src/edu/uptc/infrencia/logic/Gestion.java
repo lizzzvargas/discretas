@@ -9,8 +9,8 @@ public class Gestion {
     private ArrayList<String> conclusiones;
 
     public Gestion() {
-	premisas = new ArrayList<>();
-	conclusiones = new ArrayList<>();
+	premisas = new ArrayList<Vector<Proposicion>>();
+	conclusiones = new ArrayList<String>();
     }
 
     public void addPremisa(Proposicion preA, Proposicion preB, Proposicion con) {
